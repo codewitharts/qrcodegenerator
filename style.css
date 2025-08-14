@@ -71,6 +71,22 @@ button:hover {
   display: none;
 }
 
+.footer {
+  text-align: center;
+  padding: 1rem;
+  color: #ffffffcc;
+  background-color: #1b3c53;
+  font-size: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ffffff22;
+  border-radius: 0.5rem;
+}
+.footer .love {
+  color: red;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  margin: 0 5px;
+}
 /* ------------------ */
 /* ✅ Responsive Breakpoints */
 /* ------------------ */
