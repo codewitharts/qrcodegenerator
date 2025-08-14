@@ -34,8 +34,9 @@ body {
 .content h2 {
   color: #163850;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 .content input[type='text'],
 button {
@@ -64,10 +65,59 @@ button:hover {
 }
 
 #qrImg {
-  padding: 1rem;
-  margin: 0 auto;
-  border-radius: 0.5rem;
+  margin: 3% auto;
 }
 #download {
   display: none;
+}
+
+/* ------------------ */
+/* ✅ Responsive Breakpoints */
+/* ------------------ */
+
+/* Small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 10% 5%;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+  }
+
+  .content input[type='text'],
+  button {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+  }
+
+  #qrImg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Medium devices (tablets, 600px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    padding: 2rem;
+    width: 100%;
+    margin: 5%;
+  }
+
+  .content h2 {
+    font-size: 2.5rem;
+  }
+
+  .content input[type='text'],
+  button {
+    font-size: 1.1rem;
+  }
+
+  #qrImg {
+    width: 180px;
+    height: 180px;
+  }
 }
